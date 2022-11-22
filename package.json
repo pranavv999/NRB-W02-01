@@ -1,0 +1,31 @@
+{
+  "name": "nrb-w02-01",
+  "version": "1.0.0",
+  "description": "ReactApp using Parcel",
+  "browserslist": [
+    "> 0.5%, last 2 versions, not dead"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html --port 3000 --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavv999/NRB-W02-01.git"
+  },
+  "author": "pranavv999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranavv999/NRB-W02-01/issues"
+  },
+  "homepage": "https://github.com/pranavv999/NRB-W02-01#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
